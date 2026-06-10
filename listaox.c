@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
         {
             lista[i] = argv[i + 1][0];
 
-            if (!validar(lista[i]))
+            if (!validar_caractere(lista[i]))
             {
                 printf("Caractere inválido\n");
                 printf("Criado por: Valentina Andrade\n");

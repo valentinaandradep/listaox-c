@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int validar(char c) 
+int validar_caractere(char c) 
 {
     if (c == 'X') 
     {

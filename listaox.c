@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
                 printf("Digite o caractere %d da lista: ", i + 1);
                 scanf(" %c", &lista[i]);
 
-                if (validar(lista[i])) 
+                if (validar_caractere(lista[i])) 
                 {
                     valido = 1; 
                 }

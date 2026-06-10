@@ -20,4 +20,4 @@ jobs:
     - name: compilar o programa principal
       run: gcc listaox.c -o listaox
     - name: executar o programa principal
-      run: ./listaox
+      run: ./listaox O X X X X O O X X
